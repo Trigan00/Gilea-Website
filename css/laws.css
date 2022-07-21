@@ -1,0 +1,67 @@
+body {
+  background: url(../img/wood3.jpg) no-repeat center top / cover;
+  background-attachment: fixed
+}
+
+.nav_szz {
+	margin-top: 10px;
+}
+
+.block__item {
+	margin: 0px 0px 20px 0px;
+}
+
+.block__title {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	position: relative;
+	cursor: pointer;
+	margin: 0px 20px 0px 20px;
+	font-size: 14px;
+}
+
+.block__title:before,
+.block__title:after{
+	content: "";
+	width: 10px;
+	height: 1px;
+	background-color: #403636;
+	position: absolute;
+	top: 10px;
+	transition: all 0.3s ease 0s;
+}
+
+.block__title:before {
+	transform: rotate(40deg);
+	right: 0;
+}
+
+.block__title:after {
+	transform: rotate(-40deg);
+	right: 8px;
+}
+ 
+.block__title.active:before,
+.block__title.active:after {
+	background-color: #00FF00;
+}
+
+.block__title.active:before{
+	transform: rotate(-40deg);
+}
+
+.block__title.active:after{
+	transform: rotate(40deg);
+}
+
+.block__text {
+	display: none;
+	font-size: 14px;
+    margin: 10px 1px 0px 1px;
+}
+
+.laws_name {
+	text-align: center;
+	font-size: 24px;
+	padding-bottom: 10px;
+}

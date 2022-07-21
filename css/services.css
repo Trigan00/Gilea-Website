@@ -1,0 +1,34 @@
+body {
+  background: url(../img/wood3.jpg) no-repeat center top / cover;
+  color: #403636;
+}
+
+header {
+	margin-bottom: 30px;
+}
+
+.services_block {
+	font-size: 22px;
+}
+
+.Ser_name {
+	font-size: 24px;
+	color: #38963e;
+}
+
+hr {
+  	margin: 0px -10px 0px -10px;
+}
+
+
+.form{
+	text-align: center;
+}
+
+.message{
+	padding: 5px;
+}
+
+.question{
+	color: #fff;
+}

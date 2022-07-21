@@ -1,0 +1,110 @@
+body {
+  background: url(../img/wood3.jpg) no-repeat center top / cover;
+}
+
+@media screen and (max-width: 765px) {
+	.block, .block2, .block3 {
+		position: relative;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.block_1, .block_2, .block_3, .block_4, .block_5, .block_6, .block_7, .block_8, .block_9 {
+		max-width: 300px;
+	}
+}
+
+.block, .block2, .block3{
+  display: flex;
+}
+
+.block_1, .block_2, .block_3, .block_4, .block_5, .block_6, .block_7, .block_8, .block_9 {
+	border: 0px solid;
+	height: 350px;
+	width: 90%;
+	margin: 15px;
+	background: url(../img/paporotnik.jpg) no-repeat center top / cover;	
+	border-radius: 6px;
+	box-sizing: border-box;
+	box-shadow: 1px 5px 10px 0px black;
+	-moz-transition: all 140ms ease-out;
+	-o-transition: all 140ms ease-out;
+	-webkit-transition: all 140ms ease-out;
+}
+
+a {
+	text-decoration: none;
+}
+
+.block_1, .block_3, .block_5, .block_7, .block_9  {
+	background: url(../img/grass.jpg) no-repeat center top / cover;	
+	text-align: center;
+	padding-bottom: 10px;
+  	display: flex;
+  	align-items: flex-end; 	
+  	color: #fff;
+}
+
+.block_2, .block_4, .block_6, .block_8 {
+	/*background: url(../img/ставки.jpg) no-repeat center top / cover;	*/
+	text-align: center;
+	padding-bottom: 10px;
+  	display: flex;
+  	align-items: flex-end; 	
+  	color: #fff;
+}
+
+
+.block_1:hover {
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
+}
+
+.block_2:hover {
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
+}
+
+.block_3:hover {
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
+}
+
+.block_4:hover {
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
+}
+
+.block_5:hover {
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
+}
+
+.block_6:hover {
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
+}
+
+.block_7:hover {
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
+}
+
+.block_8:hover {
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
+}
+
+.block_9:hover {
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
+}
